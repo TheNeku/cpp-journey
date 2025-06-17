@@ -4,7 +4,7 @@ This lesson covers how to print output in C++ using `cout`, including how to dis
 
 ---
 
-##1 – Printing Text
+## 1 – Printing Text
 
 The `cout` object, together with the `<<` operator, is used to display text in C++.
 
@@ -133,7 +133,7 @@ cout << 2 * 5;   // prints 10
 
 ---
 
-##3 – New Lines
+## 3 – New Lines
 
 By default, C++ prints all output on the same line. To move to a new line, you can use either `\n` or the `endl` manipulator.
 
