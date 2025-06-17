@@ -203,6 +203,3 @@ cout << "Line 2";
   Line 1
 
 ---
-
-Practice these examples in your code editor to fully understand how C++ handles output formatting.
-
