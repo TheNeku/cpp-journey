@@ -1,4 +1,4 @@
-# C++ Syntax
+# Lesson 01 - C++ Syntax
 
 Let's break down a simple C++ program to understand each part clearly.
 
