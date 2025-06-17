@@ -1,4 +1,4 @@
-# C++ Statements
+# Lesson 02 - C++ Statements
 
 A computer program is essentially a list of instructions to be executed by a computer.
 
