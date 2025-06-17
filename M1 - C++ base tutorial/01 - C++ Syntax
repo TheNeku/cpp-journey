@@ -4,7 +4,7 @@ Let's break down a simple C++ program to understand each part clearly.
 
 ## Example
 
-```cpp
+```
 #include <iostream>
 using namespace std;
 
