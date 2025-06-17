@@ -65,7 +65,7 @@ As you can see, both messages are printed on the **same line**, immediately next
 - `cout` does **not** automatically move to a new line.
 - You can chain or repeat `cout` statements as needed.
 
-> Tip: You will learn how to print on **multiple lines** using `\n` or endl in lesson 5.
+> Tip: You will learn how to print on **multiple lines** using `\n` or `endl` in lesson 5.
 
 ---
 
