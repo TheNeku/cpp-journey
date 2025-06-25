@@ -67,34 +67,3 @@ int main() {
 ```
 
 Both styles are correct. It’s up to you to decide which to use. Many professional developers prefer using `std::` explicitly to avoid potential naming conflicts.
-
----
-
-## Quick Test – Check Your Understanding
-
-**1. What is the purpose of `#include <iostream>`?**  
-- A) To create variables  
-- B) To perform input/output operations  
-- C) To start the main function  
-
-**2. What does `cout << "Hello World!";` do?**  
-- A) Reads user input  
-- B) Declares a function  
-- C) Prints text to the screen  
-
-**3. Why is `return 0;` used in the main function?**  
-- A) To end the program with a success signal  
-- B) To display a message  
-- C) To define a variable  
-
-**4. Is C++ case-sensitive?**  
-- A) No  
-- B) Yes  
-
-**5. Which version is correct if you omit `using namespace std;`?**  
-- A) `cout << "text";`  
-- B) `std::cout << "text";`  
-
----
-
-Check your answers and make sure you understand the reasoning behind each one before moving on to the next lesson.
