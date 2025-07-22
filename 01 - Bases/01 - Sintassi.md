@@ -52,7 +52,6 @@ Questo in particolare scrive a schermo un messaggio, ma il concetto chiave è ch
 * Il C++ è **case-sensitive**: `cout` e `Cout` sono due cose diverse.  
 * Non è necessario scrivere statements uno per riga, poichè **il compilatore ignora gli spazi e i ritorni a capo**, pertanto si può scrivere tutto in una riga sola.  
 
-Alternativa valida:
 
 ```cpp
 int main() { cout << "Hello World!"; return 0; }
