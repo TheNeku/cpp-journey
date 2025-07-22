@@ -21,32 +21,22 @@ int main() {
 
 ## Spiegazione riga per riga
 
----
-
 **Riga 1 – `#include <iostream>`**
 Include una libreria chiamata `iostream`. Serve per abilitare funzioni di input e output.
 Per ora basta sapere che in quasi tutti i programmi C++ questa riga è presente.
 
----
-
 **Riga 2 – `using namespace std;`**
 Serve ad usare gli elementi della libreria standard (`std`) senza dover scrivere `std::` ogni volta.
 Ad esempio, ci permette di scrivere `cout` al posto di `std::cout`.
-Se non è chiaro come funziona, va bene così per ora, ne vedremo il funzionamento quando studieremo i namespaces
-
----
+Se non è chiaro come funziona, va bene così per ora, ne vedremo il funzionamento quando studieremo i namespaces.
 
 **Riga 3 – Riga vuota**
 Spazi bianchi e righe vuote **non vengono considerati** dal compilatore.
-Sono usati per rendere il codice più leggibile, specialmente nei programmi più lunghi.
-
----
+Sono usati per rendere il codice più leggibile, specialmente nei programmi più lunghi.  
 
 **Riga 4 – `int main() {`**
 Questa è la funzione principale.
 Ogni programma in C++ parte da qui. Il codice che scriverai all'interno delle parentesi graffe `{}` verrà eseguito.
-
----
 
 **Riga 5 – `cout << "Hello World!";`**
 È un'**istruzione**, da qui in avanti le chiamerò **statements**.
@@ -73,12 +63,9 @@ int main() { cout << "Hello World!"; return 0; }
 **Riga 6 – `return 0;`**
 Questa istruzione serve per chiudere la funzione `main()` e indicare che il programma è terminato con successo. Anche qui: è uno statement, e quindi termina con `;`.
 
----
 
 **Riga 7 – `}`**
 Chiude il blocco della funzione `main`. Ogni `{` aperta deve avere una `}` corrispondente.
-
----
 
 ## Esempio con più statement
 
@@ -100,7 +87,6 @@ Sequenza di esecuzione:
 3. Esegue `return 0;` e termina il programma
 
 ---
-
 
 ### Prossima lezione
 
