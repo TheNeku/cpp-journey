@@ -5,4 +5,4 @@ Sappi che sarà un percorso lungo e complesso, ma non temere i tuoi sforzi verra
 Detto ciò questa rep è organizzata in moduli, a loro volta divisi in lezioni.
 Entrambi avranno come nome il numero e il titolo della lezione (00 - Titolo).
 
-Orsù! Comincia la tua avventura [cliccando qui](https://github.com/TheNeku/cpp-journey/blob/main/01 - Bases/00 - Intro.md)
+Orsù! Comincia la tua avventura [cliccando qui](https://github.com/TheNeku/cpp-journey/blob/main/01%20-%20Bases/00%20-%20Intro.md)
