@@ -5,6 +5,7 @@ Qui non troverai incantesimi o magie facili in grado di ridurre il carico sulle 
 
 Ma non spaventarti. Non si nasce imparati, sei qui per iniziare. Serve solo curiosità, voglia di imparare, e soprattutto tanta logica.  
 Perché il C++ è un linguaggio che ti insegna a ragionare: ti dà gli strumenti per creare software a scopo didattico, esperimenti oppure giochi, sistemi... ma puoi anche usarlo solo per divertimento.
+  
 
 **In breve: cos’è questo C++?**
 
@@ -16,4 +17,5 @@ Serve per scrivere istruzioni che il computer esegue, una dopo l’altra, con pr
 Imparare il C++ significa costruire una solida comprensione della programmazione, utile anche per altri linguaggi e ambiti informatici.  
 La cosa realmente importante è capire come e perché funziona quello che si usa, approfondendo nel dettaglio ogni cosa e non imparando a memoria delle funzioni — esistono le wiki per quello, no?
 
+  
 Ad ogni modo, nel prossimo file cominceremo il nostro viaggio.
