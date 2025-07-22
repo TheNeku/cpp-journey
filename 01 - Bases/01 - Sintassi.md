@@ -23,7 +23,7 @@ int main() {
 
 **Riga 1 – `#include <iostream>`**
 Include una libreria chiamata `iostream`. Serve per abilitare funzioni di input e output.
-Per ora basta sapere che in quasi tutti i programmi C++ questa riga è presente.
+Per ora basta sapere che in quasi tutti i programmi di base di C++ questa riga è presente.
 
 **Riga 2 – `using namespace std;`**
 Serve ad usare gli elementi della libreria standard (`std`) senza dover scrivere `std::` ogni volta.
