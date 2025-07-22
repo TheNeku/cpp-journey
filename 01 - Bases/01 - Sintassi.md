@@ -22,25 +22,25 @@ int main() {
 ## Spiegazione riga per riga
 
 **Riga 1 – `#include <iostream>`**  
-Include una libreria chiamata `iostream`. Serve per abilitare funzioni di input e output.
+Include una libreria chiamata `iostream`. Serve per abilitare funzioni di input e output.  
 Per ora basta sapere che in quasi tutti i programmi di base di C++ questa riga è presente.
 
 **Riga 2 – `using namespace std;`**  
-Serve ad usare gli elementi della libreria standard (`std`) senza dover scrivere `std::` ogni volta.
-Ad esempio, ci permette di scrivere `cout` al posto di `std::cout`.
+Serve ad usare gli elementi della libreria standard (`std`) senza dover scrivere `std::` ogni volta.  
+Ad esempio, ci permette di scrivere `cout` al posto di `std::cout`.  
 Se non è chiaro come funziona, va bene così per ora, ne vedremo il funzionamento quando studieremo i namespaces.
 
 **Riga 3 – Riga vuota**  
-Spazi bianchi e righe vuote **non vengono considerati** dal compilatore.
+Spazi bianchi e righe vuote **non vengono considerati** dal compilatore.  
 Sono usati per rendere il codice più leggibile, specialmente nei programmi più lunghi.  
 
 **Riga 4 – `int main() {`**  
-Questa è la funzione principale.
+Questa è la funzione principale.  
 Ogni programma in C++ parte da qui. Il codice che scriverai all'interno delle parentesi graffe `{}` verrà eseguito.
 
 **Riga 5 – `cout << "Hello World!";`**  
-È un'**istruzione**, da qui in avanti le chiamerò **statements**.
-In C++, un programma è composto da una sequenza di statements che vengono eseguiti in ordine.
+È un'**istruzione**, da qui in avanti le chiamerò **statements**.  
+In C++, un programma è composto da una sequenza di statements che vengono eseguiti in ordine.  
 Questo in particolare scrive a schermo un messaggio, ma il concetto chiave è che:
 
 > Ogni statement in C++ **termina con il punto e virgola `;`**.
@@ -49,8 +49,8 @@ Questo in particolare scrive a schermo un messaggio, ma il concetto chiave è ch
 
 **Attenzione:**  
 
-* Il C++ è **case-sensitive**: `cout` e `Cout` sono due cose diverse.
-* Non è necessario scrivere statements uno per riga, poichè **il compilatore ignora gli spazi e i ritorni a capo**, pertanto si può scrivere tutto in una riga sola.
+* Il C++ è **case-sensitive**: `cout` e `Cout` sono due cose diverse.  
+* Non è necessario scrivere statements uno per riga, poichè **il compilatore ignora gli spazi e i ritorni a capo**, pertanto si può scrivere tutto in una riga sola.  
 
 Alternativa valida:
 
