@@ -16,4 +16,4 @@ Serve per scrivere istruzioni che il computer esegue, una dopo l’altra, con pr
 Imparare il C++ significa costruire una solida comprensione della programmazione, utile anche per altri linguaggi e ambiti informatici.  
 La cosa realmente importante è capire come e perché funziona quello che si usa, approfondendo nel dettaglio ogni cosa e non imparando a memoria delle funzioni — esistono le wiki per quello, no?  
 
-Ad ogni modo, nel prossimo file cominceremo il nostro viaggio.
+#### Ad ogni modo, nel prossimo file cominceremo il nostro viaggio.
