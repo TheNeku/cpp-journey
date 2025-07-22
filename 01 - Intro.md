@@ -1,4 +1,5 @@
 **Avventuriero, benvenuto!**
+
 Se sei capitato qui è perché hai deciso di iniziare il tuo viaggio nel mondo del C++. Ottima scelta!  
 Qui non troverai incantesimi o magie facili in grado di ridurre il carico sulle tue spalle: il C++ è come un artefatto leggendario. Potente, preciso... ma richiede un grande sforzo per essere utilizzato.
 
@@ -6,6 +7,7 @@ Ma non spaventarti. Non si nasce imparati, sei qui per iniziare. Serve solo curi
 Perché il C++ è un linguaggio che ti insegna a ragionare: ti dà gli strumenti per creare software a scopo didattico, esperimenti oppure giochi, sistemi... ma puoi anche usarlo solo per divertimento.
 
 **In breve: cos’è questo C++?**
+
 Il C++ è un linguaggio di programmazione.  
 Serve per scrivere istruzioni che il computer esegue, una dopo l’altra, con precisione.  
 È stato progettato per offrire un alto livello di controllo su ogni aspetto del programma: dalla gestione della memoria, all’ottimizzazione delle prestazioni.  
