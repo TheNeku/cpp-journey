@@ -1,3 +1,5 @@
+# Lezione 00 - Introduzione
+
 **Avventuriero, benvenuto!**
 
 Se sei capitato qui è perché hai deciso di iniziare il tuo viaggio nel mondo del C++. Ottima scelta!  
