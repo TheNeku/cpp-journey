@@ -86,7 +86,6 @@ int main() {
 
 (*N.B.: Non ci sono a capo o spazi, quindi i numeri verranno stampati attaccati*)
 
----
 
 ## Andare a capo con `\n`
 
