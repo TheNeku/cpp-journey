@@ -32,6 +32,7 @@ Ecco di seguito come fare:
 1. Installare [Visual Studio Code](https://code.visualstudio.com/Download).
 2. Installare le seguenti estensioni: Code Runner, C/C++, CMake Tools, C++ Better Syntax.
 3. Configurare i file tasks.json e launch.json
-4. Installare Mingw64 o qualsiasi altro compilatore.  
+4. Installare Mingw64 o qualsiasi altro compilatore.
+   
 Sfortunataente allegare file su github è estremaente scomodo e per spiegarvi nel dettaglio come fare qui mi ci vorrebbe troppo vi allego sul mio discord l'archivio del compilatore.  
 *P.S.: Basta draggarlo nel disco C: e mettere il suo percorso nella sezione 'Path' delle variabili di ambiente. SU DISCORD SPIEGAZIONE COMPLETA*.
