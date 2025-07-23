@@ -28,6 +28,6 @@ Visual Studio Code, in se non è un IDE completo, tuttavia ritengo che con le gi
 
 Ecco di seguito come fare:
 1. Installare [Visual Studio Code](https://code.visualstudio.com/Download).
-2. Installare le seguenti estensioni: Code Runner, CMake Tools, C++ Better Syntax.
+2. Installare le seguenti estensioni: Code Runner, C/C++, CMake Tools, C++ Better Syntax.
 3. Configurare i file tasks.json e launch.json
 4. Installare Mingw64 o qualsiasi altro compilatore, sul mio discord vi è il tutorial completo.
