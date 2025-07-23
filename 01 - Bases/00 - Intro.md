@@ -19,3 +19,15 @@ Imparare il C++ significa costruire una solida comprensione della programmazione
 La cosa realmente importante è capire come e perché funziona quello che si usa, approfondendo nel dettaglio ogni cosa e non imparando a memoria delle funzioni — esistono le wiki per quello, no?  
 
 #### Ad ogni modo, nel prossimo file cominceremo il nostro viaggio.
+
+Prima di cominciare ci serve un IDE e un compilatore.  
+Tenete conto che esistono compilatori che potete direttamente usare nel vostro browser, ad esemipo [onlinegd](https://www.onlinegdb.com/online_c++_compiler).  
+Se invece preferite una versione Desktop vi spiegherò come fare.
+
+Visual Studio Code, in se non è un IDE completo, tuttavia ritengo che con le giuste estensioni sia perfetto per cominciare!
+
+Ecco di seguito come fare:
+1. Installare [Visual Studio Code](https://code.visualstudio.com/Download).
+2. Installare le seguenti estensioni: Code Runner, CMake Tools, C++ Better Syntax.
+3. Configurare i file tasks.json e launch.json
+4. Installare Mingw64 o qualsiasi altro compilatore, sul mio discord vi è il tutorial completo.
