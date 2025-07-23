@@ -20,6 +20,8 @@ La cosa realmente importante è capire come e perché funziona quello che si usa
 
 #### Ad ogni modo, nel prossimo file cominceremo il nostro viaggio.
 
+## Preparare l'ambiente di lavoro
+
 Prima di cominciare ci serve un IDE e un compilatore.  
 Tenete conto che esistono compilatori che potete direttamente usare nel vostro browser, ad esemipo [onlinegd](https://www.onlinegdb.com/online_c++_compiler).  
 Se invece preferite una versione Desktop vi spiegherò come fare.
