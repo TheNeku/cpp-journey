@@ -34,5 +34,5 @@ Ecco di seguito come fare:
 3. Configurare i file tasks.json e launch.json
 4. Installare Mingw64 o qualsiasi altro compilatore.
    
-Sfortunataente allegare file su github è estremaente scomodo e per spiegarvi nel dettaglio come fare qui mi ci vorrebbe troppo vi allego sul mio discord l'archivio del compilatore.  
+Sfortunataente allegare file su github è estremaente scomodo, quindi per spiegarvi nel dettaglio come fare qui mi ci vorrebbe troppo vi allego sul mio discord l'archivio del compilatore.  
 *P.S.: Basta draggarlo nel disco C: e mettere il suo percorso nella sezione 'Path' delle variabili di ambiente. SU DISCORD SPIEGAZIONE COMPLETA*.
