@@ -78,7 +78,7 @@ int main() {
 }
 ```
 
-### Output:
+### Risultato:
 
 ```
 610
@@ -106,7 +106,7 @@ int main() {
 }
 ```
 
-### Output:
+### Risultato:
 
 ```
 Riga uno.
@@ -131,7 +131,7 @@ cout << "Ciao!" << "\n\n";
 cout << "Linea successiva.";
 ```
 
-### Output:
+### Risultato:
 
 ```
 Ciao!
@@ -181,7 +181,7 @@ cout << "Stampo una \\ barra\n";
 cout << "Uso le virgolette: \"C++\"";
 ```
 
-### Output
+### Risultato
 
 ```cpp
 Ciao    Mondo!
