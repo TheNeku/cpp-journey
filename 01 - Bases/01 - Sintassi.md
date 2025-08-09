@@ -2,91 +2,46 @@
 
 **Struttura di un programma e istruzioni**
 
-In questa lezione cerchiamo di comprendere come funziona la struttura base di un programma C++ e introduciamo il concetto fondamentale di **istruzioni** (in inglese, *statements*).
+In questa lezione vediamo la struttura base di un programma in C++ e cosa sono gli statement (istruzioni). La sintassi è l’insieme di regole che definiscono come scrivere il codice in modo che il compilatore lo capisca. Ogni programma C++ parte da una struttura fondamentale e cresce aggiungendo istruzioni che dicono al computer cosa fare.
 
 ---
 
-## Esempio base 
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 int main() {
-  cout << "Hello World!";
+  std::cout << "Hello World!";
   return 0;
 }
 ```
 
 
-## Spiegazione riga per riga
-
 **Riga 1 – `#include <iostream>`**  
-Include una libreria chiamata `iostream`. Serve per abilitare funzioni di input e output.  
-Per ora basta sapere che in quasi tutti i programmi di base di C++ questa riga è presente.
+Questa direttiva dice al compilatore di includere la libreria iostream, che permette di usare funzioni per l’input e l’output, come `std::cout`. Non è un’istruzione C++ vera e propria, ma una direttiva preprocessore, cioè viene eseguita prima della compilazione.
 
-**Riga 2 – `using namespace std;`**  
-Serve ad usare gli elementi della libreria standard (`std`) senza dover scrivere `std::` ogni volta.  
-Ad esempio, ci permette di scrivere `cout` al posto di `std::cout`.  
-Se non è chiaro come funziona, va bene così per ora, ne vedremo il funzionamento quando studieremo i namespaces.
-
-**Riga 3 – Riga vuota**  
+**Riga 2 – Riga vuota**  
 Spazi bianchi e righe vuote **non vengono considerati** dal compilatore.  
 Sono usati per rendere il codice più leggibile, specialmente nei programmi più lunghi.  
 
-**Riga 4 – `int main() {`**  
-Questa è la funzione principale.  
-Ogni programma in C++ parte da qui. Il codice che scriverai all'interno delle parentesi graffe `{}` verrà eseguito.
+**Riga 3 – `int main() {}`**  
+Ogni programma C++ deve avere una funzione main(). È il punto di ingresso: il programma inizia a eseguire le istruzioni partendo da qui.
+L’int indica che main() restituisce un valore intero al sistema operativo (tipicamente 0 se tutto è andato bene).
+Le parentesi graffe racchiudono il blocco di codice che appartiene a main(). Tutte le istruzioni del programma saranno scritte all’interno.
 
-**Riga 5 – `cout << "Hello World!";`**  
-È un'**istruzione**, da qui in avanti le chiamerò **statements**.  
-In C++, un programma è composto da una sequenza di statements che vengono eseguiti in ordine.  
-Questo in particolare scrive a schermo un messaggio, ma il concetto chiave è che:
+**Riga 4 – `cout << "Hello World!";`**  
+Questo è uno statement (istruzione) che invia testo in output al terminale.
+`std::` è il **namespace standard**, ovvero lo spazio dei nomi in cui si trova l’oggetto cout. Se lo omettessimo, il compilatore non saprebbe dove cercare cout e restituirebbe un errore, a meno che non sia stato specificato in precedenza che si sta usando quel namespace, in questo caso lo standard. Ho intenzione di fare un intera lezione sulle possibili problematiche di usare lo `using namespace std` in codici più complessi. 
+Detto ciò `cout` è l’oggetto che gestisce l’output verso la console.
+L’operatore `<<` invia il testo tra virgolette alla console.
+Ogni istruzione termina con un punto e virgola (;), che indica la fine del comando.
 
-> Ogni statement in C++ **termina con il punto e virgola `;`**.
 
----
-
-**Attenzione:**  
-
+**Attenzione a queste 2 cose:**  
 * Il C++ è **case-sensitive**: `cout` e `Cout` sono due cose diverse.  
 * Non è necessario scrivere statements uno per riga, poichè **il compilatore ignora gli spazi e i ritorni a capo**, pertanto si può scrivere tutto in una riga sola.  
 
-
+Il codice scritto prima può anche essere scritto in questa maniera:
 ```cpp
 int main() { cout << "Hello World!"; return 0; }
 ```
-
----
-
-**Riga 6 – `return 0;`**  
-Questa istruzione serve per chiudere la funzione `main()` e indicare che il programma è terminato con successo. Anche qui: è uno statement, e quindi termina con `;`.
-
-
-**Riga 7 – `}`**  
-Chiude il blocco della funzione `main`. Ogni `{` aperta deve avere una `}` corrispondente.
-
-## Esempio con più statement
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-  cout << "Riga uno.";
-  cout << "Riga due.";
-  return 0;
-}
-```
-
-Sequenza di esecuzione:
-
-1. Esegue la prima istruzione: stampa "Riga uno."
-2. Esegue la seconda istruzione: stampa "Riga due."
-3. Esegue `return 0;` e termina il programma
-
----
-
-### Prossima lezione
-
-Nella prossima lezione vedremo **come gestire l'output**!
