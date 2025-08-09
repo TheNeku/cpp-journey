@@ -1,38 +1,15 @@
 # Lezione 00 - Introduzione
 
-**Avventuriero, benvenuto!**
+Se sei qui è perché hai scelto di dedicarti allo studio del C++.
+Prima di cominciare a smanettare sul codice voglio spiegarvi alcune cose.
 
-Se sei capitato qui è perché hai deciso di iniziare il tuo viaggio nel mondo del C++. Ottima scelta!  
-Qui non troverai incantesimi o magie facili in grado di ridurre il carico sulle tue spalle: il C++ è come un artefatto leggendario. Potente, preciso... ma richiede un grande sforzo per essere utilizzato.
+Il C++ è un linguaggio di programmazione di basso livello rispetto a molti linguaggi moderni, perché offre un controllo diretto sulla memoria e sull’hardware. Nei linguaggi di alto livello, come Python o JavaScript, la gestione delle risorse è astratta e semplificata, mentre nei linguaggi di basso livello il programmatore ha il pieno controllo, ottenendo così massime prestazioni e ottimizzazione.
 
-Ma non spaventarti. Non si nasce imparati, sei qui per iniziare. Serve solo curiosità, voglia di imparare, e soprattutto tanta logica.  
-Perché il C++ è un linguaggio che ti insegna a ragionare: ti dà gli strumenti per creare software a scopo didattico, esperimenti oppure giochi, sistemi... ma puoi anche usarlo solo per divertimento.  
+Derivato dal C, di cui mantiene la velocità e la vicinanza alla macchina, il C++ ha introdotto funzionalità avanzate come la programmazione orientata agli oggetti e la programmazione generica. È ampiamente usato in settori che richiedono efficienza e stabilità, come lo sviluppo di motori di gioco, sistemi operativi, software per il calcolo scientifico, database (come MySQL), applicazioni grafiche e sistemi embedded.
 
-## In breve: cos’è questo C++?
+Non è la scelta più adatta per lo sviluppo web frontend o backend tradizionale, dove esistono linguaggi e framework più specifici e produttivi. Il C++ eccelle invece quando servono prestazioni elevate, controllo totale delle risorse e portabilità su più piattaforme.
 
-Il C++ è un linguaggio di programmazione.  
-Serve per scrivere istruzioni che il computer esegue, una dopo l’altra, con precisione.  
-È stato progettato per offrire un alto livello di controllo su ogni aspetto del programma: dalla gestione della memoria, all’ottimizzazione delle prestazioni.  
-È usato in contesti dove efficienza, velocità e affidabilità sono fondamentali: videogiochi, motori grafici, sistemi operativi, software scientifici e molto altro.
+Scegliere il C++ significa imparare un linguaggio che offre potenza, flessibilità e una base solida per comprendere a fondo come funziona il software “sotto il cofano”. La sua padronanza apre le porte a progetti complessi e performanti, fornendo competenze trasferibili anche in altri linguaggi e tecnologie, pertanto anche se l' obbiettivo inziale non sono app mobile, software di editing o videogiochi vale la pena studiarlo.
 
-Imparare il C++ significa costruire una solida comprensione della programmazione, utile anche per altri linguaggi e ambiti informatici.  
-La cosa realmente importante è capire come e perché funziona quello che si usa, approfondendo nel dettaglio ogni cosa e non imparando a memoria delle funzioni — esistono le wiki per quello, no?  
 
-#### Ad ogni modo, nel prossimo file cominceremo il nostro viaggio.
 
-## Preparare l'ambiente di lavoro
-
-Prima di cominciare ci serve un IDE e un compilatore.  
-Tenete conto che esistono compilatori che potete direttamente usare nel vostro browser, ad esemipo [onlinegd](https://www.onlinegdb.com/online_c++_compiler).  
-Se invece preferite una versione Desktop vi spiegherò come fare.
-
-Visual Studio Code, in se non è un IDE completo, tuttavia ritengo che con le giuste estensioni sia perfetto per cominciare!
-
-Ecco di seguito come fare:
-1. Installare [Visual Studio Code](https://code.visualstudio.com/Download).
-2. Installare le seguenti estensioni: Code Runner, C/C++, CMake Tools, C++ Better Syntax.
-3. Configurare i file tasks.json e launch.json
-4. Installare Mingw64 o qualsiasi altro compilatore.
-   
-Sfortunataente allegare file su github è estremaente scomodo, quindi per spiegarvi nel dettaglio come fare qui mi ci vorrebbe troppo vi allego sul mio discord l'archivio del compilatore.  
-*P.S.: Basta draggarlo nel disco C: e mettere il suo percorso nella sezione 'Path' delle variabili di ambiente. SU DISCORD SPIEGAZIONE COMPLETA*.
