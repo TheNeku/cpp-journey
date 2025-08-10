@@ -108,35 +108,35 @@ int main() {
 }
 ```
 
-**Riga 1 – `#include <iostream>`**
+**Riga 1 – `#include <iostream>`**  
 Libreria per input/output in console (`std::cout`, `std::cin`).
 
-**Riga 2 – `#include <string>`**
+**Riga 2 – `#include <string>`**  
 Libreria per il tipo `std::string`.
 
-**Riga 5 – `int eta = 20;`**
+**Riga 5 – `int eta = 20;`**  
 Variabile intera, 4 byte.
 
-**Riga 6 – `float temperatura = 36.5;`**
+**Riga 6 – `float temperatura = 36.5;`**  
 Variabile `float`, 4 byte.
 
-**Riga 7 – `double pi = 3.1415926535;`**
+**Riga 7 – `double pi = 3.1415926535;`**  
 Variabile `double`, 8 byte.
 
-**Riga 8 – `char iniziale = 'A';`**
+**Riga 8 – `char iniziale = 'A';`**  
 Variabile `char`, 1 byte.
 
-**Riga 9 – `bool acceso = true;`**
+**Riga 9 – `bool acceso = true;`**  
 Variabile logica, 1 byte.
 
-**Riga 10 – `std::string nome = "Neku";`**
+**Riga 10 – `std::string nome = "Neku";`**  
 Stringa di testo dinamica.
 
-**Riga 12 – `int a, b = 5, c;`**
+**Riga 12 – `int a, b = 5, c;`**  
 Dichiarazione di più variabili in una sola riga.
 
-**Riga 13 – `const double GRAVITA = 9.81;`**
+**Riga 13 – `const double GRAVITA = 9.81;`**  
 Costante a doppia precisione, non modificabile.
 
-**Righe 15-21**
+**Righe 15-21**  
 Output dei valori usando `std::cout`.
