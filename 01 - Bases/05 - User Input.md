@@ -1,52 +1,85 @@
 # Lezione 05 – User Input in C++
 
-**L’interazione con l’utente** può avvenire tramite la tastiera grazie alla variabile predefinita `cin`, che si usa per **ricevere input**.  
-È fondamentale per qualunque programma che voglia **leggere dati inseriti dall’utente**, come numeri o stringhe.
+**Leggere dati dalla console con `std::cin` e `std::getline`**
+
+Finora abbiamo visto come **mostrare dati** all’utente usando `std::cout`.
+Per rendere il programma interattivo, dobbiamo anche **leggere dati** inseriti dall’utente.
+In C++ l’oggetto che si occupa di questo è **`std::cin`**, fornito dalla libreria `<iostream>`.
+
+Il nome `cin` deriva da **“console input”** e rappresenta il **flusso di ingresso standard**: la tastiera.
+Funziona insieme all’operatore di **estrazione** `>>`, che “prende” il valore dal flusso di input e lo inserisce nella variabile indicata.
+
+Tuttavia, `std::cin >>` **si ferma al primo spazio**: se l’utente inserisce “Mario Rossi”, verrà letto solo “Mario”.
+Per leggere intere righe (compresi spazi) si usa **`std::getline`**.
 
 ---
 
-## Spiegazione
-
-| Comando | Significato       | Operatore associato |
-| ------- | ----------------- | ------------------- |
-| `cout`  | Output su schermo | `<<` (inserimento)  |
-| `cin`   | Input da tastiera | `>>` (estrazione)   |
-
-
-Hai già imparato che `cout` viene utilizzato per stampare (mostrare) valori in output. Ora useremo `cin` per ottenere input dall’utente.  
-`cin` è una variabile predefinita che legge i dati dalla tastiera usando l’**operatore di estrazione** (`>>`).  
-Nel seguente esempio, l’utente può inserire un numero, che verrà memorizzato nella variabile `x`.  
-Successivamente, stampiamo il valore di `x`:
-
-
 ```cpp
 #include <iostream>
-using namespace std;
+#include <string>
 
 int main() {
-    int x;
-    cout << "Scrivi un numero: ";  // Messaggio per l’utente
-    cin >> x;                   // L’utente inserisce un numero
-    cout << "Il tuo nuero è: " << x;
+    int eta;
+    std::string nome;
+    std::string nomeCompleto;
+
+    std::cout << "Inserisci il tuo nome (una parola): ";
+    std::cin >> nome;
+
+    std::cout << "Inserisci la tua eta: ";
+    std::cin >> eta;
+
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // pulisce il buffer
+
+    std::cout << "Inserisci il tuo nome completo: ";
+    std::getline(std::cin, nomeCompleto);
+
+    std::cout << "\nRisultati:\n";
+    std::cout << "Nome singolo: " << nome << '\n';
+    std::cout << "Eta: " << eta << '\n';
+    std::cout << "Nome completo: " << nomeCompleto << '\n';
+
     return 0;
 }
 ```
 
-`int x;` Crea una variabile intera chiamata `x`.  
-`cout << "Type a number: ";` Mostra un messaggio all’utente per indicargli cosa fare.  
-`cin >> x;` Aspetta che l’utente digiti un numero e prema invio. Il valore inserito viene salvato in `x`.  
-`cout << "Your number is: " << x;` Stampa il numero che l’utente ha inserito.  
+**Riga 1 – `#include <iostream>`**  
+Necessaria per input/output in console.
 
+**Riga 2 – `#include <string>`**  
+Necessaria per usare `std::string`.
 
+**Riga 5 – `int eta;`**  
+Variabile intera per l’età.
 
-## Tips
+**Riga 6 – `std::string nome;`**  
+Variabile per il nome singolo.
 
-`cin` legge **solo il primo valore valido** compatibile con il tipo della variabile.  
-Se scrivi più valori separati da spazi, `cin` assegna il **primo** alla variabile.  
-Se inserisci un tipo sbagliato (es. una lettera al posto di un numero), `cin` **va in errore** e blocca l’input successivo.
+**Riga 7 – `std::string nomeCompleto;`**  
+Variabile per il nome con spazi.
 
----
+**Riga 9 – `std::cout << ...`**  
+Chiede un nome senza spazi.
 
-## Prossima lezione
+**Riga 10 – `std::cin >> nome;`**  
+Legge la parola fino al primo spazio.
 
-Nella prossima lezione andremo a studiare i **Data Types**
+**Riga 12 – `std::cout << ...`**  
+Chiede l’età.
+
+**Riga 13 – `std::cin >> eta;`**  
+Legge l’età.
+
+**Riga 15 – `std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');`**
+Pulisce il buffer di input rimuovendo tutti i caratteri rimasti (incluso il `\n`).
+Questo è importante perché, dopo `std::cin >>`, resta nel buffer il carattere di nuova riga premuto dall’utente: se non lo rimuoviamo, `std::getline` leggerà subito una riga vuota.
+Per ora prendetela come nozione, ne capiremo l'essenza vera e propria più avanti.
+
+**Riga 17 – `std::cout << ...`**
+Chiede il nome completo.
+
+**Riga 18 – `std::getline(std::cin, nomeCompleto);`**
+Legge l’intera riga inserita dall’utente, spazi compresi.
+
+**Righe 20-23 – `std::cout << ...`**
+Mostra i risultati.
