@@ -81,24 +81,20 @@ int main() {
 }
 ```
 
----
-
-## Spiegazione riga per riga
-
-**Riga 1 – `#include <iostream>`**
+**Riga 1 – `#include <iostream>`**  
 Per la stampa in console.
 
-**Riga 2 – `#include <cmath>`**
+**Riga 2 – `#include <cmath>`**  
 Per funzioni matematiche avanzate.
 
-**Riga 5 – `int a = 7, b = 3;`**
+**Riga 5 – `int a = 7, b = 3;`**  
 Dichiara due interi per esempi.
 
-**Righe 8–12**
+**Righe 8–12**  
 Uso degli operatori aritmetici di base.
 
-**Righe 15–22**
+**Righe 15–22**  
 Uso di funzioni di `<cmath>` per radice, potenza, valore assoluto, arrotondamenti e valori max/min.
 
-**Righe 25–27**
+**Righe 25–27**  
 Uso delle funzioni trigonometriche `sin`, `cos`, `tan` con argomenti in radianti.
