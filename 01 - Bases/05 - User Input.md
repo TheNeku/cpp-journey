@@ -70,16 +70,16 @@ Chiede l’età.
 **Riga 13 – `std::cin >> eta;`**  
 Legge l’età.
 
-**Riga 15 – `std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');`**
+**Riga 15 – `std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');`**  
 Pulisce il buffer di input rimuovendo tutti i caratteri rimasti (incluso il `\n`).
 Questo è importante perché, dopo `std::cin >>`, resta nel buffer il carattere di nuova riga premuto dall’utente: se non lo rimuoviamo, `std::getline` leggerà subito una riga vuota.
 Per ora prendetela come nozione, ne capiremo l'essenza vera e propria più avanti.
 
-**Riga 17 – `std::cout << ...`**
+**Riga 17 – `std::cout << ...`**  
 Chiede il nome completo.
 
-**Riga 18 – `std::getline(std::cin, nomeCompleto);`**
+**Riga 18 – `std::getline(std::cin, nomeCompleto);`**  
 Legge l’intera riga inserita dall’utente, spazi compresi.
 
-**Righe 20-23 – `std::cout << ...`**
+**Righe 20-23 – `std::cout << ...`**  
 Mostra i risultati.
