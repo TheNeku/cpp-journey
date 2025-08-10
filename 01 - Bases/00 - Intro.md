@@ -9,7 +9,7 @@ Derivato dal C, di cui mantiene la velocità e la vicinanza alla macchina, il C+
 
 Non è la scelta più adatta per lo sviluppo web frontend o backend tradizionale, dove esistono linguaggi e framework più specifici e produttivi. Il C++ eccelle invece quando servono prestazioni elevate, controllo totale delle risorse e portabilità su più piattaforme.
 
-Scegliere il C++ significa imparare un linguaggio che offre potenza, flessibilità e una base solida per comprendere a fondo come funziona il software “sotto il cofano”. La sua padronanza apre le porte a progetti complessi e performanti, fornendo competenze trasferibili anche in altri linguaggi e tecnologie, pertanto anche se l' obbiettivo inziale non sono app mobile, software di editing o videogiochi vale la pena studiarlo.
+Scegliere il C++ significa imparare un linguaggio che offre potenza, flessibilità e una base solida per comprendere a fondo come funziona il software “sotto il cofano”. La sua padronanza apre le porte a progetti complessi e performanti, fornendo competenze trasferibili anche in altri linguaggi e tecnologie, pertanto anche se l' obbiettivo inziale non è lo sviluppo di determinate cose potrebbe non essere il linguaggio ideale per voi. Detto questo, essendo molto complesso, può essere utile studiarlo poichè aprirà indubbiamente la mente e vi faciliterà l'apprendimento di altri linguaggi.
 
 
 
