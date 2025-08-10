@@ -9,7 +9,6 @@ Una stringa è una sequenza di caratteri. In C++ puoi gestirla in due modi:
 
 Di seguito vediamo come creare, concatenare, convertire numeri in testo, misurare la lunghezza, accedere ai caratteri, usare caratteri speciali, leggere stringhe dall’utente e fare manipolazioni di base (trova, estrai, inserisci, cancella, sostituisci, aggiungi). In chiusura, un cenno a come evitare di scrivere `std::` ogni volta.
 
-## Strings Intro
 
 ```cpp
 std::string saluto = "Hello World";
