@@ -10,7 +10,7 @@ Il nome `cin` deriva da **“console input”** e rappresenta il **flusso di ing
 Funziona insieme all’operatore di **estrazione** `>>`, che “prende” il valore dal flusso di input e lo inserisce nella variabile indicata.
 
 Tuttavia, `std::cin >>` **si ferma al primo spazio**: se l’utente inserisce “Mario Rossi”, verrà letto solo “Mario”.
-Per leggere intere righe (compresi spazi) si usa **`std::getline`**.
+Per leggere intere righe (compresi spazi) si usa **`std::getline`**. Ad ogni modo lo approfondiremmo nella **Lezione 08** con le stringhe.
 
 ---
 
