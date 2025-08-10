@@ -142,10 +142,7 @@ Costante a doppia precisione, non modificabile.
 Output dei valori usando `std::cout`.
 
 
-Ecco un paragrafo compatto che puoi incollare nella sezione:
-
-
-**La variabile `auto`**
+### La variabile `auto`
 La parola chiave `auto` permette al compilatore di **dedurre automaticamente il tipo** della variabile in base al valore con cui viene inizializzata. Questo può rendere il codice più leggibile e ridurre ripetizioni, ma richiede sempre l’inizializzazione al momento della dichiarazione. Ad esempio:
 
 ```cpp
