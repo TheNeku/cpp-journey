@@ -33,5 +33,3 @@ int main() {
 **Riga 13 - `// ...` alla fine di un’istruzione**  
 * Puoi mettere un commento dopo una riga di codice: il compilatore esegue l’istruzione e ignora tutto ciò che segue `//` sulla stessa riga.
 * Buono per aggiungere note o chiarimenti rapidi sul significato di una singola riga.
-
-Se vuoi, per la **Lezione 4** possiamo passare a **variabili** e tipi di dato, così continuiamo in ordine logico dopo sintassi, output e commenti.
