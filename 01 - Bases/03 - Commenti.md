@@ -26,7 +26,7 @@ int main() {
 * Crea un **commento su una sola riga**: tutto ciò che segue `//` fino alla fine della riga viene ignorato dal compilatore.
 * Utile per brevi note, spiegazioni veloci o commenti in linea a destra di un’istruzione.
 
-**`Riga 6-10 - /* ... */`**  
+**Riga 6-10 - `/* ... */`**  
 * Crea un **commento su più righe**: tutto ciò che si trova tra `/*` e `*/` viene ignorato dal compilatore, anche se va a capo.
 * Adatto per spiegazioni più lunghe, blocchi di testo o per "commentare" temporaneamente più righe di codice.
 
