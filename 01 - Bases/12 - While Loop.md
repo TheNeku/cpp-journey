@@ -21,8 +21,6 @@ while (condizione) {
 * La **condizione** è valutata **prima** di ogni iterazione.
 * Se la condizione è `false` fin dall’inizio, il blocco non viene mai eseguito.
 
----
-
 ## Ciclo `do...while`
 
 Struttura di base:
@@ -44,6 +42,8 @@ do {
 | Controllo condizione | All’inizio                           | Alla fine                                     |
 | Esecuzione minima    | Può essere **zero**                  | Sempre **almeno una volta**                   |
 | Uso tipico           | Quando non si sa se entrare nel loop | Quando il blocco va eseguito almeno una volta |
+
+---
 
 ```cpp
 #include <iostream>
