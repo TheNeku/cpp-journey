@@ -21,7 +21,7 @@ tipo nome[dimensione];
 int numeri[5] = {10, 20, 30, 40, 50};
 ```
 
-## 1. Array e cicli
+## Array e cicli
 
 L’uso combinato di array e cicli (`for`, `while`) permette di leggere o scrivere rapidamente più valori.
 
