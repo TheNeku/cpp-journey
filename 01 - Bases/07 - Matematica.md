@@ -8,7 +8,7 @@ Il C++ offre due strumenti principali per eseguire calcoli matematici:
 1. **Operatori aritmetici**: per somme, sottrazioni, moltiplicazioni, divisioni, modulo, incremento e decremento.
 2. **Funzioni matematiche**: fornite dalla libreria `<cmath>` (o `<math.h>`), utili per operazioni più complesse come radici, potenze, valori assoluti e funzioni trigonometriche.
 
-## 1. Operatori aritmetici
+## Operatori aritmetici
 
 | Operatore | Significato     | Esempio (`a=7`, `b=3`) | Risultato |
 | --------- | --------------- | ---------------------- | --------- |
@@ -21,7 +21,7 @@ Il C++ offre due strumenti principali per eseguire calcoli matematici:
 | `--`      | Decremento      | `b--` / `--b`          | 2         |
 
 
-## 2. Libreria `<cmath>`
+## Libreria `<cmath>`
 
 Per usare le funzioni matematiche avanzate, includi l’header:
 
