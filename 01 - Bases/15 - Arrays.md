@@ -80,7 +80,7 @@ int main() {
 ```
 
 
-## 6. Array multidimensionali
+## Array multidimensionali
 
 Gli array possono avere più di una dimensione.
 Un esempio comune è una **matrice** (array bidimensionale).
