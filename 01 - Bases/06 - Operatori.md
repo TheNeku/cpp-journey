@@ -10,7 +10,7 @@ In questa lezione analizziamo quattro categorie fondamentali:
 3. **Operatori di confronto** – confrontano due valori e restituiscono `true`/`false`.
 4. **Operatori logici** – combinano o negano valori booleani.
 
-## 1. Operatori aritmetici
+## Operatori aritmetici
 
 | Operatore | Nome              | Esempio (`a=7`, `b=3`) | Risultato | Note principali                                                                                               |
 | --------- | ----------------- | ---------------------- | --------- | ------------------------------------------------------------------------------------------------------------- |
@@ -26,7 +26,7 @@ In questa lezione analizziamo quattro categorie fondamentali:
 
 > Precedenza: `*`, `/`, `%` hanno precedenza su `+` e `-`. Le parentesi `(...)` risolvono ogni ambiguità.
 
-## 2. Operatori di assegnazione
+## Operatori di assegnazione
 
 L’operatore base è `=`. Esistono varianti combinate che eseguono un’operazione e assegnano il risultato.
 
@@ -39,7 +39,7 @@ L’operatore base è `=`. Esistono varianti combinate che eseguono un’operazi
 | `/=`      | Divisione e assegnazione       | `x /= y;`              | `1`              |
 | `%=`      | Modulo e assegnazione          | `x %= y;`              | `2`              |
 
-## 3. Operatori di confronto
+## Operatori di confronto
 
 Restituiscono `true` se la condizione è vera, `false` altrimenti.
 
@@ -52,7 +52,7 @@ Restituiscono `true` se la condizione è vera, `false` altrimenti.
 | `>=`      | Maggiore o uguale a | `x >= y`               | `true`    |
 | `<=`      | Minore o uguale a   | `x <= y`               | `false`   |
 
-## 4. Operatori logici
+## Operatori logici
 
 | Operatore | Nome       | Descrizione                                  | Esempio              | Risultato |
 | --------- | ---------- | -------------------------------------------- | -------------------- | --------- |
