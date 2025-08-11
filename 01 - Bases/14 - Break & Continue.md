@@ -83,5 +83,3 @@ I numeri pari vengono ignorati.
 | ---------- | --------------------------------------------------------------------------- |
 | `break`    | Termina completamente il ciclo o il blocco `switch`.                        |
 | `continue` | Salta il resto del codice nell’iterazione corrente e passa alla successiva. |
-
-Se vuoi, per la **Lezione 15** possiamo iniziare con **gli array** in C++, così passiamo a memorizzare più valori in un’unica variabile. Vuoi che proceda?
