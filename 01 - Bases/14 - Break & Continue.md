@@ -5,7 +5,7 @@
 Durante l’esecuzione di un ciclo (`for`, `while`, `do...while`) o di un `switch`, può essere necessario **interrompere** il ciclo prima che la condizione diventi falsa, oppure **saltare** parte del codice e passare direttamente all’iterazione successiva.
 In C++ queste operazioni si realizzano con le istruzioni **`break`** e **`continue`**.
 
-## 1. `break` – Interrompere il ciclo
+## `break` – Interrompere il ciclo
 
 `break` termina immediatamente il ciclo (o il `switch`) in cui si trova, ignorando eventuale codice rimanente nel blocco.
 
@@ -41,7 +41,7 @@ int main() {
 
 Il ciclo si ferma appena `i` diventa 5.
 
-## 2. `continue` – Saltare all’iterazione successiva
+## `continue` – Saltare all’iterazione successiva
 
 `continue` interrompe **solo l’iterazione corrente** e passa subito alla successiva, saltando il codice rimanente del blocco.
 
