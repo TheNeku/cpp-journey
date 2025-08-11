@@ -8,7 +8,7 @@ In questa lezione analizziamo due tipi di loop:
 * **`while`** – controlla la condizione **prima** di eseguire il blocco.
 * **`do...while`** – esegue il blocco **almeno una volta**, poi controlla la condizione.
 
-## 1. Ciclo `while`
+## Ciclo `while`
 
 Struttura di base:
 
@@ -23,7 +23,7 @@ while (condizione) {
 
 ---
 
-## 2. Ciclo `do...while`
+## Ciclo `do...while`
 
 Struttura di base:
 
