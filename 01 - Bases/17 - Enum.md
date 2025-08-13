@@ -79,8 +79,6 @@ switch (c) {
 }
 ```
 
----
-
 ## `enum class`
 
 In C++ moderno, si preferisce usare **enum class** perché:
